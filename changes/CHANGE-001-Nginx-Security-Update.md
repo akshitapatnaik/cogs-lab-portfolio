@@ -1,6 +1,6 @@
-# CHANGE-002 – Nginx Server Configuration Update
+# CHANGE-001 – Nginx Server Configuration Update
 
-**Change ID:** CHANGE-002
+**Change ID:** CHANGE-001
 
 **Type:** Normal Change
 
