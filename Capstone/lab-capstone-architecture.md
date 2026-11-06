@@ -26,7 +26,7 @@ Build a mini Zero Trust Network Access (ZTNA) environment using WireGuard, Nginx
                  v
             VM2 (10.0.0.1)
         ---------------------
-        | WireGuard Server  |
+        | WireGuard Server   |
         | Nginx Reverse Proxy|
         ---------------------
                  |
