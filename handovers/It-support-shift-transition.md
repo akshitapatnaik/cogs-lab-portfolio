@@ -1,52 +1,50 @@
-# PACE – Daily Shift Handover Report
+# PACE – IT Support Shift Transition
 
-**Outgoing Engineer:** Support Engineer  
-**Incoming Engineer:** Next Shift Engineer  
-**Handover Date:** 2026-11-06  
-**Shift:** Evening Shift
+**Outgoing Team Member:** Support Engineer  
+**Receiving Team Member:** Next Shift Engineer  
+**Handover Time:** 18:00 IST  
+**Department:** IT Support Operations
 
-## 🔴 HIGH-PRIORITY SUPPORT TICKETS
+## 1. Open Support Cases
 
-| Ticket ID | Priority | Service | Reported Issue | Current Status |
+| Case ID | Severity | Service Area | Problem Reported | Next Action |
 |---|---|---|---|---|
-| #2001 | P1 | VPN Service | Remote users unable to connect | Under Investigation |
-| #2002 | P2 | User Authentication | Login failure for multiple users | Awaiting Update |
+| INC-201 | P2 | Authentication | Users experiencing OTP delivery delays | Contact L2 team |
+| INC-202 | P3 | Active Directory | Password changes not synchronizing | Verify directory sync |
 
-## ✅ WORK COMPLETED
+## 2. Primary – Current Situation
 
-- Reviewed all active support requests.
-- Checked VPN service availability.
-- Collected error details from affected users.
-- Updated the ticket records with troubleshooting information.
-- Forwarded unresolved issues to the appropriate support team.
+- INC-201: OTP messages are delayed for multiple users.
+- INC-202: Password updates are not reflecting immediately.
+- Both cases require follow-up from the next shift.
 
-## ⏳ PENDING ACTIVITIES
+## 3. Alternate – Immediate Actions
 
-- Ticket #2001: Infrastructure team needs to investigate VPN connectivity.
-- Ticket #2002: Verify user authentication after the identity team provides an update.
-- Monitor both tickets and update their progress.
+- Check the OTP service response.
+- Review authentication logs.
+- Verify Active Directory synchronization.
+- Contact affected users for confirmation.
 
-## 📋 INCIDENT BACKGROUND
+## 4. Contingency – If Issues Continue
 
-- Multiple users reported VPN connection failures.
-- Initial connectivity checks were performed.
-- Authentication errors were reported by some users.
-- Both issues require further investigation.
+- Escalate unresolved cases to the L2 support team.
+- Collect relevant error logs.
+- Inform the support lead about possible SLA delays.
+- Keep the incident records updated.
 
-## 📅 FOLLOW-UP REQUIREMENTS
+## 5. Emergency – Critical Escalation
 
-- Check the VPN service status during the next shift.
-- Contact the infrastructure team for an update.
-- Confirm whether affected users can log in successfully.
-- Update ticket records with the latest findings.
-- Escalate any SLA risks to the support lead.
+- Notify the Infrastructure Team if authentication services become unavailable.
+- Follow the incident escalation procedure.
+- Provide regular updates to affected users.
+- Prioritize service restoration.
 
-## ✍️ HANDOVER CONFIRMATION
+## 6. Pending Follow-ups
 
-- [ ] Open tickets reviewed.
-- [ ] Pending tasks explained.
-- [ ] Escalations communicated.
-- [ ] SLA deadlines checked.
-- [ ] Incoming engineer acknowledged the handover.
+- [ ] Confirm OTP delivery for affected users.
+- [ ] Verify password synchronization.
+- [ ] Update both incident records.
+- [ ] Review SLA deadlines.
+- [ ] Obtain confirmation from the incoming engineer.
 
-**Final Status:** Pending Follow-up
+**Handover Status:** Awaiting Next Shift Follow-up
