@@ -11,15 +11,16 @@
 
 ### Ping to 8.8.8.8
 
-- Average RTT: 1.180 ms
+- Average RTT: 0.922 ms
 - TTL value observed: 119
-- What does TTL tell us about the path? - TTL indicates how many router hops a packet can travel before it expires. It helps us understand the approximate network distance to the destination.
+- What does TTL tell us about the path? - TTL (Time To Live) indicates how many router hops a packet can travel before it expires. Each router decreases the TTL value by 1. It prevents packets from travelling endlessly in a network.
 
 ### Traceroute to google.com
 
 - Number of hops: 4
-- Any `* * *` hops? Yes
-- At which hop number? Hop 1 (one probe) in the normal traceroute; hop 2 (all probes) in the TCP traceroute.
+- Any `* * *` hops? No
+- At which hop number? No timeouts were observed. Google was successfully reached at hop 4.
+- Destination IP: 142.251.42.110
 
 ### DNS Comparison
 
@@ -48,6 +49,7 @@
 - Command: `curl -v https://www.google.com 2>&1 | head -40`
 - HTTPS Port: 443
 - TLS Version: TLS 1.3
+- Cipher Suite: TLS_AES_256_GCM_SHA384
 - HTTP Protocol: HTTP/2
 - Connection: Successful using IPv4
 - IPv6 connection: Network unreachable
