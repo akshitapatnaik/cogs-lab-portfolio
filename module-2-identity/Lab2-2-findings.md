@@ -1,4 +1,4 @@
-# Lab 2-2 Findings – My Contribution
+# Lab 2-2 Findings 
 
 ## Attribute Mapper Configuration
 
