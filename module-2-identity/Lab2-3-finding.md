@@ -1,4 +1,4 @@
-# My Contribution – Lab 2.3: TOTP MFA Implementation
+# Lab 2.3: TOTP MFA Implementation
 
 I worked on implementing Time-Based One-Time Password (TOTP) authentication using Python and the PyOTP library.
 
