@@ -12,6 +12,6 @@
 
 Monitoring the InstaSafe Gateway is important because it acts as the main entry point for users to access applications and services. If the gateway becomes unavailable, users may not be able to access these services. HTTP(S), TCP Port, and Ping monitors help identify service failures, port connectivity issues, and network problems quickly. This helps the IT team respond to incidents and restore services faster.
 
-## Lab 3.1 Conclusion
+## Conclusion
 
 Successfully deployed Uptime Kuma and configured three monitors for the target VM. Stopped Nginx to test failure detection and observed a DOWN alert. Restarted Nginx and confirmed that the HTTP(S) monitor returned to UP with a 200 OK response.
