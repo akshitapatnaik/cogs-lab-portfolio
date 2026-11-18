@@ -1,4 +1,4 @@
-# Lab 5.2 – My Contribution
+# Lab 5.2 – Findings
 
 ## Objective
 
